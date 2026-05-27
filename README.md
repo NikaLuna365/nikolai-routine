@@ -9,7 +9,7 @@ This repo holds the **machinery**: data-preprocessing scripts, sub-agent definit
 and the Routine prompts. The **knowledge base and all private context live in Notion**,
 not here.
 
-> 🔗 **Notion knowledge base:** _(link added after bootstrap — see `🧠 Nikolai Context`)_
+> 🔗 **Notion knowledge base:** [🧠 Nikolai Context](https://www.notion.so/36d2cfd3c7288129a56cca41ceb5bc3c) _(private — link is access-gated by Notion)_
 
 ## How it works (short)
 
