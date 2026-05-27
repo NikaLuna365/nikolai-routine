@@ -1,0 +1,5 @@
+# Data-preprocessing dependencies for the weekly Routine production path.
+# Pinned to known-good majors; bump deliberately.
+telethon==1.36.0
+python-dotenv==1.0.1
+openai==1.54.4   # only used by transcribe_voice.py (currently a stub)

@@ -1,0 +1,41 @@
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
+
+# --- Data artifacts (NEVER commit — contain private chat content / contacts) ---
+chats.json
+*_chats.json
+messages.jsonl
+*_messages.jsonl
+cleaned*.jsonl
+people_raw.json
+topics_raw.json
+money_raw.json
+*_raw.json
+data/
+out/
+checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# --- Tooling / OS ---
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log
