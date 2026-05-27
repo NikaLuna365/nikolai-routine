@@ -129,6 +129,8 @@ def main() -> int:
                 continue
             fid = msg.get("from_id")
             if fid is None:
+                fid = msg.get("from_name")  # MCP history exposes names, not ids
+            if not fid:
                 continue
             rec = people[fid]
             rec["from_id"] = fid
